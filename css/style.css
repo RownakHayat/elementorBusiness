@@ -1,0 +1,74 @@
+.header-container{
+    width: 1230px;
+    background-image: url(https://weebtheme.com/elementor/business/wp-content/uploads/sites/9/2022/07/bg1.jpg);
+    background-size: cover;
+}
+.header{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(10, 4, 67, 0.75);
+}
+.header-menu{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-left: 30px;
+    
+}
+.logo{
+    width: 42px;
+    
+}
+.logo img{
+    width: 150px;
+}
+.menu-bar{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-left: 150px;
+    position: relative;
+}
+.menu{
+    margin-left: 20px;
+    padding: 10px;
+    
+   
+
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 4rem;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: #FFFF;
+    box-sizing: border-box;
+    margin: 0 30px 0 0;
+    position: relative;
+	z-index: 1;
+	background: none;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 14px;
+    position: static !important;
+    
+}
+.menu ul li a:hover{
+    background-color: gainsboro;
+    padding:  25px 13px 38px;
+    box-shadow: 5px solid(tomato) ;
+}
+
+.bring{
+    color: #FFFF;
+}
+.tackle{
+    color: darkgray;
+}
