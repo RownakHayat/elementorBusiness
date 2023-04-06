@@ -2,6 +2,16 @@
     margin: 0;
     padding: 0;
 }
+.top-header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px;
+}
+.location, .info{
+    padding: 10px;
+    
+}
 .header{
     position: fixed;
     width: 100%;
@@ -23,9 +33,7 @@
 .header_logo img{
     width: 50%;
 }
-.langues{
-    text-align: center;
-}
+
 .menu{
     margin: 0;
     box-sizing: border-box;
@@ -40,7 +48,6 @@
 }
 
 .quote{
-    
     background-color: rgb(50, 170, 60);
     width: 200px;
     height: 50px;
@@ -88,7 +95,7 @@
     font: bold;
 }
 .broccoli{
-    width: 850px;
+    width: 100%;
 }
 .button{
     background-color: rgb(62, 206, 57);
@@ -109,7 +116,11 @@
 	transform: scale(1.2);
 }
 .purchase{
-    margin: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FFF;
+    margin-top: 10px;
     padding: 10px;
     border: 1px solid rgb(231, 231, 231);
     border-bottom: 0; 
@@ -118,7 +129,10 @@
 .policy, .fontawesome{
     padding: 10px;
 }
-
+.spray{
+    margin-top: 20px;
+    padding: 20px;
+}
 
 .trusted{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -135,25 +149,45 @@
    height: 15rem;
    
 }
+.categories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.food-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
 .food-items img{
     width: 50px;
+    display: flex;
 }
 .foods{
+    padding: 5px;
     background-color: #FFF;
     width: 200px;
     height: 200px; 
 }
+.food-img, .food-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+
 .food{
     box-sizing: border-box;
     border-right: 1px solid#c2c2c2;
     text-transform: uppercase;
-    
+    padding: 5px;
 }
 .food:hover{
     color: rgb(62, 206, 57);
 }
-.cart-header h5::after{
+.cart-header .food::after{
     content: '';
     width: 0px;
     height: 2px;
@@ -164,7 +198,7 @@
     transition: .5s;
   
 }
-.cart-header h5:hover:after{
+.cart-header .food:hover:after{
     width: 120px;
 }
 
@@ -172,12 +206,25 @@
     height: 11rem;
     background-color: rgb(241, 236, 227);
 }
+.products-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3px;
+}
 .fruits-cart{
     box-sizing: border-box;
     width: 300px;
     height: auto;
     border: 1px solid rgb(226, 226, 226);
-    margin-left: 10px;
+    margin: 10px;
     
 }
 .arriv{
@@ -195,7 +242,12 @@
     background-color:rgb(226, 226, 226);
     height: 270px;
 }
+.fruits-group{
+    display: flex;
+    padding: 10px;
+}
 .fruit img{
+    padding: 5px;
     width: 250px;
     height: auto;
     transform: scale(1);
@@ -270,11 +322,11 @@
 }
 
 .owner-img{
-    width: 500px;
+    width: 566px;
     position: absolute;
     left: 50%;
     top: 59%;
-    transform: translate(-50%, -59%);
+    transform: translate(-37%, -59%);
 
 }
 
@@ -315,4 +367,126 @@
 .footer-text a{
     color: #FFF;
     text-decoration: none;
+}
+.header-text-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+@media (max-width: 700px) {
+    .top-header{
+        display: flex;
+        padding: 5px;
+        font-size: 10px;
+    }
+    .fa-brands{
+        padding: 2px;
+        font-size: 10px; 
+    }
+    .navbar-menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header-text-body{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+    }
+    .header-text{
+        font-size: 20px;
+        font: bold;
+    }
+    .button{
+        background-color: rgb(62, 206, 57);
+        color: #FFF;
+        width: 150px;
+        height: 30px;
+        border: none;
+        text-align: center;
+    }
+    .policy, .fontawesome{
+        font-size: 10px;
+        padding: 5px;
+    }
+    .planting-img img{
+        padding: 2px;
+        width: 80px;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .trusted{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        
+    }
+    
+    .know-text{
+        color:  rgb(62, 206, 57);
+        font-size: 5px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .spray{
+        margin-top: 10px;
+        padding: 5px;
+    }
+    .trusted-text{
+        font-size: 8px;
+    }
+    .categories-body{
+        background-color: rgb(7, 63, 5);
+        height: 8rem;
+        
+     }
+    .categories{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        font-size: 5px;
+    }
+    .food-items img{
+        width: 20px;
+    }
+    .foods{
+        padding: 2px;
+        background-color: #FFF;
+        width: 90px;
+        height: 100px; 
+    }
+    .food-img, .food-text{
+        font-size: 10px;
+    }
+    .blank{
+        height: 5rem;
+        background-color: rgb(241, 236, 227);
+    }
+    .food{
+
+        box-sizing: border-box;
+        border-right: 1px solid#c2c2c2;
+        text-transform: uppercase;
+        font-size: 8px;
+    }
+    .cart-header .food:hover:after{
+        width: 50px;
+    }
+    .fruits-group{
+        display: block;
+        padding: 5px;
+    }
+    .fruits-cart{
+        display: block;
+        box-sizing: border-box;
+        width: auto;
+        height: auto;
+        border: 1px solid rgb(226, 226, 226);
+        margin: 10px;
+        
+    }
+    
 }
