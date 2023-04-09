@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business – Business WordPress Theme</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="icon" type="image/x-icon" href="http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQZrP_28uDRPTZXvZrK5jTfI5qOHfWcV0-nezjzt1Jz5C9oP7LvNJN_JNjJp8hRwbeg8vonNSlrW8E3iCM">
     <link rel="font-awesome" href="fontawesome-free-6.4.0-web/css/fontawesome.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -26,11 +27,11 @@
             </div>
           </div>
           <div class=" right-sec d-flex ">
-                  <p class="langues">English</p>
               <ul class="d-flex  fa-brand">
-                  <li><i class="fa-brands fa-square-facebook"></i></li>
-                  <li><i class="fa-brands fa-square-twitter"></i></li>
-                  <li><i class="fa-brands fa-linkedin"></i></li>
+                  <li class="langues">English <i class="text-success fa-solid fa-arrow-down"></i></li>
+                  <li><i class="fa-brands fa-facebook-f"></i></li>
+                  <li><i class="fa-brands fa-twitter"></i></i></li>
+                  <li><i class="fa-brands fa-instagram"></i></li>
                   <li><i class="fa-brands fa-solid fa-globe"></i></li>
               </ul>
             </div>
@@ -103,16 +104,24 @@
                                 </li>
                               </ul>
                               <form class="form ">
-                                <div class="input-group input-group-sm d-flex">
-                                    <div class="search-bar shadow bg-body p-2 d-flex ">
-                                      <div class="d-flex ">
-                                        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-                                        <button class="btn-search" type="submit">
-                                        <span><i class="fa-solid fa-magnifying-glass"></i></span> 
-                                      </div> 
-                                      </button>
-                                    </div>
+                                
+                                      <!-- <div class="search-bar shadow bg-body p-2 d-flex ">
+                                        <div class="d-flex">
+                                          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                                          <button class="btn-search" type="submit">
+                                          <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                                          </button>
+                                        </div> 
+                                      </div> -->
+                                      
                                       <div class="notification d-flex">
+                                        <div class="active notic shadow p-2 bg-body">
+                                          <i class="fa fa-search" aria-hidden="true"></i>
+                                          <div class="search-box">
+                                            <input type="text">
+                                            <input type="button" value="search">
+                                          </div>
+                                        </div>
                                         <div class="notic shadow p-2 bg-body ">
                                           <i class="fa-solid fa-user"></i>
                                         </div>
@@ -120,7 +129,7 @@
                                           <i class="fa-solid fa-cart-shopping"></i>
                                         </div>
                                       </div>
-                                </div>
+                                
                             </form>
                             </div>
                           </div>
