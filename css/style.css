@@ -344,11 +344,9 @@
     color: rgb(62, 206, 57);
 }
 .curated-body{
-   
     box-shadow: 1px ; 
     background-color: #FFF;
-    padding: 5px;
-    
+    padding-left: 10px;
 }
 .curated{
     display: flex;
