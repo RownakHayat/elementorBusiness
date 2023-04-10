@@ -13,6 +13,10 @@
     padding: 10px;
     
 }
+.info-icon{
+    color: rgb(50, 170, 60);
+    padding: 5px;
+}
 .hr{
     padding: 0;
     position: relative;
@@ -159,7 +163,7 @@
     background-color: #FFF;
     margin-top: 10px;
     padding: 10px;
-    border: 1px solid rgb(231, 231, 231);
+    border: 1px solid rgb(221, 220, 220);
     border-bottom: 0; 
 }
 
@@ -168,7 +172,7 @@
 }
 .spray{
     margin-top: 20px;
-    padding: 20px;
+    padding: 36px;
 }
 
 .trusted{
