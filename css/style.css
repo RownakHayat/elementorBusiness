@@ -7,10 +7,15 @@
     align-items: center;
     justify-content:space-between;
     padding-top: 20px;
+   
 }
 .location, .info{
     padding: 10px;
     
+}
+.hr{
+    padding: 0;
+    position: relative;
 }
 .header{
     position: fixed;
@@ -41,7 +46,7 @@
 
 }
 .nav-item{
-    padding: 1%;
+    padding: 2%;
 }
 .nav-item .nav-link{
     color: black;
@@ -49,8 +54,8 @@
 
 .quote{
     background-color: rgb(50, 170, 60);
-    width: 200px;
-    height: 50px;
+    width: 270px;
+    height: 63px;
 }
 .quote a{
     text-align: center;
@@ -62,20 +67,27 @@
 .notification{
     font-size: 20px;
     padding: 8px;
+   
+}
+
+.notice{
+    padding: 4%;
+    cursor: pointer;
     position: relative;
 }
 .search-box{
     background: rgb(241, 236, 227);
     position: absolute;
-    top: 69px;
-    right: 60%;
+    top: 66px;
+    right: -17%;
     width: 342px;
     height: 49px;
     line-height: 46px;
     box-shadow: 0 0 10px rgba(31, 31, 31, 0.5);
     border-top: 4px solid rgb(172, 172, 172);
+    display: none;
 }
-.search-box:before{
+.search-box::before{
     content: "";
     position: absolute;
     top: -32px;
@@ -102,20 +114,6 @@
     color: #faf8f8;
     margin-left: -6px;
 }
-
-.search-bar{
-    align-items: center;
-    justify-content: center;
-}
-.btn-search{
-    box-sizing: border-box;
-    border-radius: 4px ;
-    color: rgb(50, 170, 60);
-}
-
-.notice{
-    padding: 4px;
-}
 .fa-brand{
     list-style: none;
     margin: 0;
@@ -125,8 +123,8 @@
     padding: 5px;
     font-size: 15px; 
 }
-.langues-sec{
-    padding-left: 30px;
+.langues{
+    padding-right: 30px;
 }
 
 .header-text{
