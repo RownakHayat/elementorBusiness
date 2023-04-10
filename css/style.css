@@ -104,7 +104,7 @@
     border: 1px solid rgb(50, 170, 60);
     outline: none;
 }
-.search-box input[type="button"]{
+.search-box input[type="search-button"]{
     width: 90px;
     height: 54px;
     background: rgb(50, 170, 60);

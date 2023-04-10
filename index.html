@@ -14,7 +14,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
    <script>
       $(document).ready(function(){
-        $(".active").click(function(){
+        $(".search-active").click(function(){
           $(".search-box").toggle();
           $("input[type='text']").focus();
         });
@@ -60,9 +60,9 @@
                       <div class="header_menu">
                         <nav class="navbar navbar-expand-lg">
                           <div class="container-fluid">
-                            <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <!-- <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                               <span class="navbar-toggler-icon"></span>
-                            </button>
+                            </button> -->
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                               <ul class="navbar-nav me-auto mb-lg-0">
                                 <li class="nav-item dropdown ">
@@ -113,11 +113,11 @@
                               </ul>
                               <form class="form">
                                       <div class="notification d-flex">
-                                        <div class="active notice shadow p-3 bg-body">
+                                        <div class="search-active notice shadow p-3 bg-body">
                                           <i class="fa fa-search" aria-hidden="true"></i>
                                           <div class="search-box">
                                             <input type="text">
-                                            <input type="button" value="search">
+                                            <input type="search-button" value="search">
                                           </div>
                                         </div>
                                         <div class="notice shadow p-3 bg-body ">
