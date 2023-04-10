@@ -132,7 +132,7 @@
     font: bold;
 }
 .broccoli{
-    width: 100%;
+    width: 115%;
 }
 .button{
     background-color: rgb(62, 206, 57);
@@ -183,7 +183,7 @@
 }
 .categories-body{
    background-color: rgb(7, 63, 5);
-   height: 15rem;
+   height: 20rem
    
 }
 .categories{
@@ -205,21 +205,30 @@
 .foods{
     padding: 5px;
     background-color: #FFF;
-    width: 200px;
-    height: 200px; 
+    width: 279px;
+    height: 285px;
 }
+.food-img{
+    padding: 20px;
+    background-color: rgb(226, 240, 186);
+    border-radius: 50% 45% 56% 30%;
+    padding: 16px;
+    margin: 19px
+    
+}
+
 .food-img, .food-text{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2px;
+    
 }
 
 .food{
     box-sizing: border-box;
     border-right: 1px solid#c2c2c2;
     text-transform: uppercase;
-    padding: 5px;
+    
 }
 .food:hover{
     color: rgb(62, 206, 57);
@@ -240,7 +249,7 @@
 }
 
 .blank{
-    height: 11rem;
+    height: 15rem;
     background-color: rgb(241, 236, 227);
 }
 .products-header{
@@ -369,11 +378,11 @@
 }
 
 .owner-img{
-    width: 566px;
+    width: 81%;
     position: absolute;
-    left: 50%;
-    top: 59%;
-    transform: translate(-37%, -59%);
+    left: 58%;
+    top: 61%;
+    transform: translate(-46%, -58%);
 
 }
 
@@ -454,6 +463,7 @@
         font-size: 20px;
         font: bold;
     }
+    
     .button{
         background-color: rgb(62, 206, 57);
         color: #FFF;
