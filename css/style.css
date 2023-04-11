@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.top{
+    border-bottom:1px solid rgb(214, 212, 212);
+}
 .top-header{
     display: flex;
     align-items: center;
@@ -17,10 +20,7 @@
     color: rgb(50, 170, 60);
     padding: 5px;
 }
-.hr{
-    padding: 0;
-    position: relative;
-}
+
 .header{
     position: fixed;
     width: 100%;
@@ -30,6 +30,12 @@
 }
 .header-body{
     background-color:rgb(241, 236, 227);
+}
+.header-text-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
 }
 .row{
     justify-content: center;
@@ -53,9 +59,15 @@
     padding: 2%;
 }
 .nav-item .nav-link{
-    color: black;
+    color: rgb(10, 39, 13);
+    font: 700;
+    font-weight: bold;
 }
+.submenu{
+    color: rgb(10, 39, 13);
+    font-weight: bold;
 
+}
 .quote{
     background-color: rgb(50, 170, 60);
     width: 270px;
@@ -78,6 +90,7 @@
     padding: 4%;
     cursor: pointer;
     position: relative;
+    margin: 5px;
 }
 .search-box{
     background: rgb(241, 236, 227);
@@ -135,6 +148,11 @@
     font-size: 60px;
     font: bold;
 }
+.verticle-line{
+    height: 65px;
+    border-left: 3px solid rgb(112, 111, 111);
+    padding: 10px;
+}
 .broccoli{
     width: 115%;
 }
@@ -185,6 +203,11 @@
     font-size: 15px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.verticle-line2{
+    height: 65px;
+    border-left: 3px solid rgb(111, 209, 107);
+    padding: 15px;
+}
 .categories-body{
    background-color: rgb(7, 63, 5);
    height: 20rem
@@ -212,20 +235,15 @@
     width: 279px;
     height: 285px;
 }
-.food-img{
-    padding: 20px;
-    background-color: rgb(226, 240, 186);
-    border-radius: 50% 45% 56% 30%;
-    padding: 16px;
-    margin: 19px
-    
-}
 
+.food-img img{
+    width: 70%;
+}
 .food-img, .food-text{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    font-size: 20px;
 }
 
 .food{
@@ -237,8 +255,19 @@
 .food:hover{
     color: rgb(62, 206, 57);
 }
-.cart-header .food::after{
+
+.cart-header h5{
+    padding-right: 24px;
+}
+.cart-header {
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+.cart-header::after{
     content: '';
+    box-sizing: border-box;
+    border: none;
     width: 0px;
     height: 2px;
     background: rgb(62, 206, 57);
@@ -248,8 +277,8 @@
     transition: .5s;
   
 }
-.cart-header .food:hover:after{
-    width: 120px;
+.cart-header:hover:after{
+    width: 150px;
 }
 
 .blank{
@@ -397,6 +426,7 @@
     box-shadow: 1px ; 
     background-color: #FFF;
     padding-left: 10px;
+    margin-left: 10px;
 }
 .curated{
     display: flex;
@@ -406,6 +436,7 @@
 }
 .planting-group{
     display: flex;
+   
 }
 .curat{
     font-size: 30px;
@@ -416,11 +447,15 @@
     border-right: 1px solid#c2c2c2;
 
 }
-.footer{
+.footer-section{
     background-color:rgb(0, 7, 0);
 }
-.footer_logo{
-    padding: 5px;
+.footer-text{
+    margin: 30px
+}
+.footer-title{
+    padding-top: 60px;
+    font-size: 25px;
 }
 
 .footer_logo{
@@ -431,15 +466,41 @@
     color: #FFF;
    
 }
-.footer-text a{
-    color: #FFF;
-    text-decoration: none;
+.footer-list{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.header-text-body{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 5px;
+.footer-text ul li{
+    list-style: none;
+}
+.location-call{
+    padding-right: 10px;
+}
+.mail-box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mail-box input[type="text"]{
+    width: 64%;
+    height: 67px;
+    margin-left: 0px;
+    border: none;
+    outline: none;
+    padding: 15px;
+}
+.mail-box .mail-btn{
+    width: 62px;
+    height: 70px;
+    cursor: pointer;
+    outline: none;
+    margin-left: -4px;
+    margin-bottom: 4px;
+    background: rgb(50, 170, 60);
+    border: none;
+    color: #FFF;
+}
+.footer-list img{
+    width: 80%;
 }
 
 @media (max-width: 700px) {
@@ -503,8 +564,13 @@
         margin-top: 10px;
         padding: 5px;
     }
+    .trusted-text1{
+        margin-bottom: 28px;
+        margin-top: 20px;
+    }
     .trusted-text{
         font-size: 8px;
+       
     }
     .categories-body{
         background-color: rgb(7, 63, 5);
@@ -527,9 +593,7 @@
         width: 90px;
         height: 100px; 
     }
-    .food-img, .food-text{
-        font-size: 10px;
-    }
+    
     .blank{
         height: 5rem;
         background-color: rgb(241, 236, 227);
@@ -615,9 +679,7 @@
         transform: translate(35%, -101%);
     
     }
-    .planting-group{
-        display: block;
-    }
+    
     .card-img-top{
         background-color:rgb(226, 226, 226);
         width: 100%;

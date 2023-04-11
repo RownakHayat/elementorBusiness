@@ -22,7 +22,7 @@
     </script>
 </head>
 <body>
-<section>
+<section class="top">
   <div class="container">
     <div class="row">
       <div class="top-header">
@@ -46,7 +46,10 @@
       </div>
     </div>
   </div>
-  <hr>
+  
+</section>
+
+<section>  
   <div class="header">
         <div class="container">
             <div class="row mb-2">
@@ -66,7 +69,7 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                               <ul class="navbar-nav me-auto mb-lg-0">
                                 <li class="nav-item dropdown ">
-                                  <a class="nav-link active menu" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home+</a>
+                                  <a class="nav-link active menu" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home<span class="submenu">+</span></a>
                                   <ul class="dropdown-menu ">
                                     <li><a class="dropdown-item" href="#">Action</a></li>
                                     <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -127,7 +130,6 @@
                                           <i class="fa-solid fa-cart-shopping"></i>
                                         </div>
                                       </div>
-                                
                             </form>
                             </div>
                           </div>
@@ -152,7 +154,7 @@
           <div class="text">
             <h1 class="header-text">Our Garden's Most Favorite Food</h1>
             <div class="d-flex p-2">
-              
+              <div class="verticle-line"></div>
               <p class="p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, necessitatibus voluptas aut officiis placeat culpa!</p>
             </div>
           </div>
@@ -201,8 +203,8 @@
           <div class="director-sig">
             <p class="know-text"><small>KNOW MORE ABOUT SHOP</small></p>
             <h1 class="trusted">Trusted Organic Food Store</h1>
-            <div class="d-flex">
-              
+            <div class="d-flex trusted-text1">
+              <div class="verticle-line2"></div>
               <p class="trusted-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsa eum, 
                 illum quasi blanditiis porro similique quaerat quas deleniti corporis libero..</p>
             </div>
@@ -234,7 +236,7 @@
       <div class="col-lg-12 food-items">
         <div class="foods">
          <div class="food-img">
-          <img src="image/beef-meat.png">
+          <img src="image/Capture1-removebg-preview.png">
          </div>
           <div class="food-text">
             <p><small>Meat</small></p>
@@ -245,7 +247,7 @@
         </div>
         <div class="foods">
           <div class=" food-img">
-            <img src="image/drinks.png">
+            <img src="image/Capture11-removebg-preview (1).png">
            </div>
             <div class="food-text">
               <p><small>Drinks</small></p>
@@ -256,7 +258,7 @@
         </div>
         <div class="foods">
           <div class="food-img">
-            <img src="image/fish-item.png">
+            <img src="image/Capture11-removebg-preview.png">
            </div>
             <div class="food-text">
               <p><small>Fish</small></p>
@@ -267,7 +269,7 @@
         </div>
         <div class="foods">
           <div class="food-img">
-            <img src="image/images (1).jpg">
+            <img src="image/Capture113-removebg-preview.png">
            </div>
             <div class="food-text">
               <p><small>Browse all</small></p>
@@ -756,8 +758,9 @@
         </div>
       </div>
     </div>
+  </div>
     <div class="row p-5">
-      <div class="container">
+      <div class="container-fluid">
         <div class="curated-body shadow  bg-body">
           <div class="curated ">
             <div class="d-flex align-items-center p-2">
@@ -785,65 +788,75 @@
         </div>
       </div>
     </div>
-
-  </div>
 </section>
-<section class="footer">
-  <div class="container">
-    <table class="footer-text">
-      <tr class="p-5">
-        <th class="p-2"><img class= "footer_logo img-fluid" src="image/Capture-removebg-preview.png"></th>
-        <th class="p-2"><h4>Company</h4></th>
-        <th class="p-2"><h4>Services.</h4></th>
-        <th class="p-2"><h4>Customer Care</h4></th>
-        <th class="p-2"><h4>Newsletter</h4></th>
-      </tr>
-      <tr class="p-5">
-        <td >Lorem ipsum dolor, sit amet consectetur adipisicing <br>  elit., Nesciunt officiis illo quaerat corrupti.</td>
-        <td>Loremr</td>
-        <td>consectetur</td>
-        <td>to our weekly </td>
-        <td>Newsletter and receive updates vi email</td>
-      </tr>
-      <tr class="table-list p-5">
-        <td><p>
-          <a href="https://goo.gl/maps/vJ9exXHxXcPJK3eL7"><i class="fa-sharp fa-solid fa-location-dot"></i></a>
-          Brooklyn, New York, United States
-        </p></td>
-        <td>FAQ</td>
-        <td>Subscribe</td>
-        <td>FAQ</td>
-        <td>email</td>
-      </tr>
-      <tr class="table-list p-5">
-        <td><p><a href=""><i class="fa-solid fa-phone-volume"></i></a>+123456789</p></td>
-        <td>Wish List</td>
-        <td>FAQ</td>
-        <td>My account</td>
-        <td>Newsletter</td>
-      </tr>
-      <tr class="table-list p-5">
-        <td><p><a href=""><i class="fa-regular fa-envelope"></i></a>example@gmail.com</p></td>
-        <td>FAQ</td>
-        <td>Wish List</td>
-        <td>My account</td>
-        <td>FAQ</td>
-      </tr>
-      <tr class="p-2">
-        <td>
-          <div class="d-flex">
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-linkedin"></i>
-          <i class="fa-brands fa-youtube"></i>
+<section class="footer-section">
+  <div class="container-fluid">
+    <div class="row footer-text">
+      <div class="footer d-flex">
+        <div class="col-lg-3">
+          <ul>
+            <li class="footer-title"><img class="footer_logo" src="image/Capture-removebg-preview.png"></li>
+            <li class="footer-list">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              <br> Sint dolorum ex excepturi nihil soluta, optio modi minus consequatur saepe, dolore voluptates,</li>
+              <li class="footer-list"><i class="location-call fa-solid fa-location-dot"></i> Brooklyn, New York, United States</li>
+              <li class="footer-list"><i class="location-call fa-solid fa-phone-volume"></i>+1234567890</li>
+              <li><i class="location-call fa-regular fa-envelope"></i>example@gmail.com</li>
+              <div class="d-flex social">
+              <li class="footer-list"><i class="location-call fa-brands fa-facebook-f"></i></li>
+              <li class="footer-list"><i class="location-call fa-brands fa-twitter"></i></li>
+              <li class="footer-list"><i class="location-call fa-brands fa-linkedin"></i></li>
+              <li class="footer-list"><i class="location-call fa-brands fa-youtube"></i></li>
+              </div>
+          </ul>
         </div>
-      </td>
-        <td>Contact us</td>
-        <td>Promotional Office</td>
-        <td>Contact us</td>
-        <td>FAQ</td>
-      </tr>
-    </table>
+        <div class="col-lg-2">
+         <ul>
+          <li class="footer-title">Company</li>
+          <li class="footer-list">About</li>
+          <li class="footer-list">Blog</li>
+          <li class="footer-list">All Products</li>
+          <li class="footer-list">Locations Map</li>
+          <li class="footer-list">FAQ</li>
+          <li class="footer-list">Contact us</li>
+         </ul>
+        </div>
+        <div class="col-lg-2">
+          <ul>
+            <li class="footer-title">Services.</li>
+            <li class="footer-list">Orders tracking</li>
+            <li class="footer-list">Wish list</li>
+            <li class="footer-list">login</li>
+            <li class="footer-list">My account</li>
+            <li class="footer-list">Terms & Conditions</li>
+            <li class="footer-list">Promotional Office</li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <ul>
+            <li class="footer-title">Customer Care</li>
+            <li class="footer-list">Login</li>
+            <li class="footer-list">My account</li>
+            <li class="footer-list">Wish list</li>
+            <li class="footer-list">Orders tracking</li>
+            <li class="footer-list">Contact us</li>
+            <li class="footer-list">FAQ</li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <ul>
+            <li class="footer-title">Newsletter</li>
+            <li class="footer-list">Subscribe to our weekly Newsletter and receive update vi email.</li>
+            <li class="mail-box">
+              <input type="text" placeholder="Email*">
+              <button class="mail-btn"><i class="fa-solid fa-location-arrow"></i></button>
+            </li>
+            <li class="footer-list">We Accept</li>
+            <li class="footer-list"><img src="image/Screenshot_1-removebg-preview.png"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
   </div>
 </section>
 
@@ -860,7 +873,7 @@
 
 
 
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
