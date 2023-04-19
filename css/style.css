@@ -323,7 +323,10 @@
 .cart-header:hover:after{
     width: 150px;
 }
-
+.cart-link{
+    text-decoration: none;
+    color: #000;
+}
 .blank{
     height: 15rem;
     background-color: rgb(241, 236, 227);
